@@ -1,5 +1,6 @@
 import os
 from pinecone import Pinecone, ServerlessSpec
+import streamlit as st
 
 pc = Pinecone(api_key=st.secrets("PINECONE_API_KEY"))
 
